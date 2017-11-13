@@ -31,7 +31,7 @@
   };
   
   
-  function total() {
+  exports.total=function() {
     return items.reduce(function(a,b){return a+b.price},0);
   }
   // total = () => {
@@ -40,6 +40,6 @@
   
 
 exports.addItem = addItem;
-exports.total = total;
+// exports.total = total;
 
 
